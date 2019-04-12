@@ -17,7 +17,7 @@ public class GenericArray<T>{
 		return (T[])array;//warning: unch
 	}
 	 public static void main(String[] args) {
-	 	GenericArray<Integer> gai = new GenericArray<Integer>(10);
+	 	GenericArray<Integer> gai = new GenericArray<>(10);
 	 	for(int i = 0;i<10;i++){
 	 		gai.put(i,i);
 	 	}
