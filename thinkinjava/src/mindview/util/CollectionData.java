@@ -13,6 +13,7 @@ package mindview.util;
 /**
  * 〈一句话功能简述〉<br> 
  * 〈容器数据〉
+ * 适配器模式的一个实例，将generator适配到Collection的构造器上
  *
  * @author jzhb
  * @create 2019/4/12
