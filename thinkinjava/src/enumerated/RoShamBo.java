@@ -10,6 +10,8 @@
  */
 package enumerated;
 
+import mindview.util.Enums;
+
 /**
  * 〈一句话功能简述〉<br> 
  * 〈执行分发〉
@@ -26,7 +28,7 @@ public class RoShamBo {
     public static <T extends Enum<T> & Competitor<T>>
     void play(Class<T> rsbClass, int size){
         for(int i = 0;i < size;i++){
-            //match(Enums.random(rsbClass),Enums.random(rsbClass));
+            match(Enums.random(rsbClass),Enums.random(rsbClass));
             System.out.println("test!");
         }
     }
